@@ -34,7 +34,7 @@ header {
   position: absolute;
 }
 .splash-manual a .splash-teaser {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.9);
   float: right;
   padding: 0 10px;
   -webkit-transition: all 0.2s ease-in-out;
@@ -63,7 +63,7 @@ header {
   -webkit-transition: all 5s ease-in-out;
   transition: all 5s ease-in-out;
   position: absolute;
-  top: -60px;
+  top: -50px;
 }
 .splash-manual a:hover .splash-teaser {
   background-color: #ffffff;
@@ -78,10 +78,6 @@ header {
 }
 .splash-manual a:hover img {
   top: -40px;
-}
-.splash-manual a .third a h1 {
-  font-size: 64px;
-  line-height: 1;
 }
 .splash-manual a img {
   position: absolute;
@@ -98,11 +94,11 @@ header {
 }
 .third a img {
   width: 90%;
-  left: -200px;
+  left: -15%;
 }
 .third a:hover img {
   width: 100%;
-  left: -220px;
+  left: -20%;
 }
 .half .splash-teaser {
   margin: 20px 20px 0 450px;
@@ -112,12 +108,12 @@ header {
   line-height: 1;
 }
 .half img {
-  width: 95%;
-  left: -170px;
+  width: 80%;
+  left: -15%;
 }
 .half:hover img {
-  width: 100%;
-  left: -170px;
+  width: 90%;
+  left: -20%;
 }
 .twothirds .splash-teaser {
   margin: 20px 20px 0 300px;
@@ -127,11 +123,11 @@ header {
   line-height: 1;
 }
 .twothirds img {
-  width: 95%;
-  left: -200px;
+  width: 80%;
+  left: -20%;
 }
 .twothirds:hover img {
-  width: 100%;
-  left: -200px;
+  width: 85%;
+  left: -25%;
 }
 /*# sourceMappingURL=style2.css.map */
