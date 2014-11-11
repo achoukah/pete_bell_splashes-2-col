@@ -29,10 +29,13 @@ header {
   position: relative;
 }
 .splash-manual a:hover {
+  -webkit-background-size: 100%;
+  background-size: 100%;
   background-position: -30% 0;
 }
 .splash-manual a:hover h1 {
   color: #000000;
+  border-left: thick solid #a00000;
 }
 .splash-manual a:hover .splash-teaser {
   background-color: #ffffff !important;
@@ -42,8 +45,8 @@ header {
   text-transform: uppercase;
 }
 .splash-manual a:hover img {
-  left: -80px;
-  width: 75%;
+  left: -100px;
+  width: 85%;
 }
 .splash-manual a .splash-teaser {
   background-color: rgba(255, 255, 255, 0.8) !important;
@@ -61,7 +64,7 @@ header {
 .splash-manual a .splash-teaser h1 {
   color: #404040;
   border-left: thick solid #e00000;
-  padding-left: 20px;
+  padding: 10px 0 0 20px;
   margin-left: -15px;
 }
 .splash-manual a .splash-teaser p {
@@ -74,7 +77,7 @@ header {
 }
 .splash-manual a .double h1 {
   font-size: 64px;
-  line-height: 1.1;
+  line-height: 1;
 }
 .splash-manual a .single {
   margin: 20px 20px 0 600px;
@@ -92,13 +95,8 @@ header {
 }
 .splash-manual a img {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 50%;
   z-index: 1;
   -webkit-transition: all 5s ease-in-out;
   transition: all 5s ease-in-out;
-  left: -60px;
-  width: 65%;
 }
 /*# sourceMappingURL=style.css.map */
