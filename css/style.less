@@ -69,9 +69,7 @@
     margin: 20px auto;
 
 
-    *, *:before, *:after {
-      box-sizing: border-box;
-    }
+    *, *:before, *:after { box-sizing: border-box;}
 
 
     a {
@@ -98,19 +96,55 @@
             text-transform: uppercase;
           }
         }
+
+        img {
+          left: -80px;
+          width: 75%;
+        }
       }
 
       .splash-teaser {
-        width: 620px;
         background-color: @wht-lt-tr !important;
         float: right;
-        margin: 20px;
         padding: 0 10px;
         transition: all .2s ease-out;
+        z-index: 100;
+        position: absolute;
 
         strong {
           color: @red-md;
           text-transform: uppercase;
+        }
+
+        h1 {
+          color: @blk-lt;
+          border-left: thick solid @red-md;
+          padding-left: 20px;
+          margin-left: -15px;
+        }
+
+        p {
+          color: @blk-lt;
+          line-height: 1.4;
+          padding: 10px;
+        }
+      }
+
+      .double {
+        margin: 20px 20px 0 300px;
+
+        h1 {
+          font-size: 64px;
+          line-height: 1.1;
+        }
+      }
+
+      .single {
+        margin: 20px 20px 0 600px;
+
+        h1 {
+          font-size: 44px;
+          line-height: 1;
         }
       }
 
@@ -118,31 +152,19 @@
         width: 100%;
         height: 440px;
         background: url(../img/gradient.png) top right repeat-y;
+        z-index: 10;
+        position: absolute;
       }
 
       img {
         position: absolute;
         top: 0;
         left: 0;
-      }
-
-      h1 {
-        font-size: 64px;
-        color: @blk-lt;
-        line-height: 1.1;
-        border-left: thick solid @red-md;
-        padding-left: 20px;
-        margin-left: -15px;
-      }
-
-      p {
-        color: @blk-lt;
-        line-height: 1.4;
-        padding: 10px;
-      }
+        width: 50%;
+        z-index: 1;
+        transition: all 5s ease-in-out;
+        left: -60px;
+        width: 65%;
+      } 
     }
-    
-
-
-
   }

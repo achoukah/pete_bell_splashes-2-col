@@ -41,40 +41,64 @@ header {
   color: #e00000;
   text-transform: uppercase;
 }
+.splash-manual a:hover img {
+  left: -80px;
+  width: 75%;
+}
 .splash-manual a .splash-teaser {
-  width: 620px;
   background-color: rgba(255, 255, 255, 0.8) !important;
   float: right;
-  margin: 20px;
   padding: 0 10px;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
+  z-index: 100;
+  position: absolute;
 }
 .splash-manual a .splash-teaser strong {
   color: #e00000;
   text-transform: uppercase;
 }
+.splash-manual a .splash-teaser h1 {
+  color: #404040;
+  border-left: thick solid #e00000;
+  padding-left: 20px;
+  margin-left: -15px;
+}
+.splash-manual a .splash-teaser p {
+  color: #404040;
+  line-height: 1.4;
+  padding: 10px;
+}
+.splash-manual a .double {
+  margin: 20px 20px 0 300px;
+}
+.splash-manual a .double h1 {
+  font-size: 64px;
+  line-height: 1.1;
+}
+.splash-manual a .single {
+  margin: 20px 20px 0 600px;
+}
+.splash-manual a .single h1 {
+  font-size: 44px;
+  line-height: 1;
+}
 .splash-manual a .gradient {
   width: 100%;
   height: 440px;
   background: url(../img/gradient.png) top right repeat-y;
+  z-index: 10;
+  position: absolute;
 }
 .splash-manual a img {
   position: absolute;
   top: 0;
   left: 0;
-}
-.splash-manual a h1 {
-  font-size: 64px;
-  color: #404040;
-  line-height: 1.1;
-  border-left: thick solid #e00000;
-  padding-left: 20px;
-  margin-left: -15px;
-}
-.splash-manual a p {
-  color: #404040;
-  line-height: 1.4;
-  padding: 10px;
+  width: 50%;
+  z-index: 1;
+  -webkit-transition: all 5s ease-in-out;
+  transition: all 5s ease-in-out;
+  left: -60px;
+  width: 65%;
 }
 /*# sourceMappingURL=style.css.map */
