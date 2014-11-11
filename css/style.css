@@ -9,6 +9,7 @@ header {
 .splash-manual {
   width: 940px;
   height: 440px;
+  overflow: hidden;
   margin: 20px auto;
 }
 .splash-manual *,
@@ -22,12 +23,10 @@ header {
   display: block;
   width: 100%;
   height: 440px;
-  background-image: url(http://img.thesun.co.uk/aidemitlum/archive/02154/Nadine_Forde_arriv_2154148a.jpg);
-  background-position: -20% 10%;
-  background-repeat: no-repeat;
   background-color: rgba(0, 0, 0, 0.5);
   -webkit-transition: all 5s ease-in-out;
   transition: all 5s ease-in-out;
+  position: relative;
 }
 .splash-manual a:hover {
   background-position: -30% 0;
@@ -36,11 +35,7 @@ header {
   color: #000000;
 }
 .splash-manual a:hover .splash-teaser {
-  width: 620px;
   background-color: #ffffff !important;
-  float: right;
-  margin: 20px;
-  padding: 0 10px;
 }
 .splash-manual a:hover .splash-teaser strong {
   color: #e00000;
@@ -58,6 +53,16 @@ header {
 .splash-manual a .splash-teaser strong {
   color: #e00000;
   text-transform: uppercase;
+}
+.splash-manual a .gradient {
+  width: 100%;
+  height: 440px;
+  background: url(../img/gradient.png) top right repeat-y;
+}
+.splash-manual a img {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 .splash-manual a h1 {
   font-size: 64px;
