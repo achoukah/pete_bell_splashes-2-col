@@ -1,0 +1,137 @@
+body {
+  font-size: 16px;
+}
+header {
+  width: 100%;
+  height: 100px;
+  background: url(../img/masthead.png) 50% no-repeat;
+}
+.splash-manual {
+  width: 940px;
+  height: 440px;
+  overflow: hidden;
+  margin: 20px auto;
+}
+.splash-manual *,
+.splash-manual *:before,
+.splash-manual *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.splash-manual a {
+  display: block;
+  width: 100%;
+  height: 440px;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+.splash-manual a .gradient {
+  width: 100%;
+  height: 440px;
+  background: url(../img/gradient.png) top right repeat-y;
+  z-index: 10;
+  position: absolute;
+}
+.splash-manual a .splash-teaser {
+  background-color: rgba(255, 255, 255, 0.8);
+  float: right;
+  padding: 0 10px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  z-index: 100;
+  position: absolute;
+}
+.splash-manual a .splash-teaser strong {
+  color: #e00000;
+  text-transform: uppercase;
+}
+.splash-manual a .splash-teaser h1 {
+  color: #404040;
+  border-left: thick solid #a00000;
+  padding: 10px 0 0 20px;
+  margin-left: -15px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.splash-manual a .splash-teaser p {
+  color: #404040;
+  line-height: 1.4;
+  padding: 10px;
+}
+.splash-manual a img {
+  -webkit-transition: all 5s ease-in-out;
+  transition: all 5s ease-in-out;
+  position: absolute;
+  top: -60px;
+}
+.splash-manual a:hover .splash-teaser {
+  background-color: #ffffff;
+}
+.splash-manual a:hover .splash-teaser h1 {
+  color: #000000;
+  border-left: thick solid #e00000;
+}
+.splash-manual a:hover .splash-teaser strong {
+  color: #e00000;
+  text-transform: uppercase;
+}
+.splash-manual a:hover img {
+  top: -40px;
+}
+.splash-manual a .third a h1 {
+  font-size: 64px;
+  line-height: 1;
+}
+.splash-manual a img {
+  position: absolute;
+  z-index: 1;
+  -webkit-transition: all 5s ease-in-out;
+  transition: all 5s ease-in-out;
+}
+.third a .splash-teaser {
+  margin: 20px 20px 0 600px;
+}
+.third a .splash-teaser h1 {
+  font-size: 44px;
+  line-height: 1;
+}
+.third a img {
+  width: 90%;
+  left: -200px;
+}
+.third a:hover img {
+  width: 100%;
+  left: -220px;
+}
+.half .splash-teaser {
+  margin: 20px 20px 0 450px;
+}
+.half .splash-teaser h1 {
+  font-size: 60px;
+  line-height: 1;
+}
+.half img {
+  width: 95%;
+  left: -170px;
+}
+.half:hover img {
+  width: 100%;
+  left: -170px;
+}
+.twothirds .splash-teaser {
+  margin: 20px 20px 0 300px;
+}
+.twothirds .splash-teaser h1 {
+  font-size: 68px;
+  line-height: 1;
+}
+.twothirds img {
+  width: 95%;
+  left: -200px;
+}
+.twothirds:hover img {
+  width: 100%;
+  left: -200px;
+}
+/*# sourceMappingURL=style2.css.map */
