@@ -2,49 +2,50 @@
 
   // COLOURS
 
-    @blk-dk:            rgb(0,0,0);
-    @blk-md:            rgb(32,32,32);
-    @blk-lt:            rgb(64,64,64);
+    // BLACK AND WHITE
 
-    @blk-dk-tr:         rgba(0,0,0,.5);
-    @blk-md-tr:         rgba(32,32,32,.5);
-    @blk-lt-tr:         rgba(64,64,64,.5);
+      @blk-dk:            rgb(0,0,0);
+      @blk-md:            rgb(32,32,32);
+      @blk-lt:            rgb(64,64,64);
 
-    @gry-dk:            rgb(96, 96, 96);
-    @gry-md:            rgb(128, 128, 128);
-    @gry-lt:            rgb(160, 160, 160);
+      @blk-dk-tr:         rgba(0,0,0,.5);
+      @blk-md-tr:         rgba(32,32,32,.5);
+      @blk-lt-tr:         rgba(64,64,64,.5);
 
-    @gry-dk-tr:         rgba(96, 96, 96, .5);
-    @gry-md-tr:         rgba(128, 128, 128, .5);
-    @gry-lt-tr:         rgba(160, 160, 160, .5);
+      @gry-dk:            rgb(96, 96, 96);
+      @gry-md:            rgb(128, 128, 128);
+      @gry-lt:            rgb(160, 160, 160);
 
-    @wht-dk:            rgb(192, 192, 192);
-    @wht-md:            rgb(224, 224, 224);
-    @wht-lt:            rgb(256, 256, 256);
-    
-    @wht-dk-tr:         rgba(192, 192, 192, 0.7);
-    @wht-md-tr:         rgba(224, 224, 224, 0.7);
-    @wht-lt-tr:         rgba(256, 256, 256, 0.7);
+      @gry-dk-tr:         rgba(96, 96, 96, .5);
+      @gry-md-tr:         rgba(128, 128, 128, .5);
+      @gry-lt-tr:         rgba(160, 160, 160, .5);
 
-    @red-dk:            rgb(160,0,0);
-    @red-md:            rgb(224,0,0);
-    @red-lt:            rgb(255,0,0);
-
-    @red-dk-tr:         rgba(102,0,0,.5);
-    @red-md-tr:         rgba(153,0,0,.5);
-    @red-lt-tr:         rgba(204,0,0,.5);
-
-    @link:              @red-dk;
-    @link-hover:        @red-md;
+      @wht-dk:            rgb(192, 192, 192);
+      @wht-md:            rgb(224, 224, 224);
+      @wht-lt:            rgb(256, 256, 256);
+      
+      @wht-dk-tr:         rgba(192, 192, 192, 0.7);
+      @wht-md-tr:         rgba(224, 224, 224, 0.7);
+      @wht-lt-tr:         rgba(256, 256, 256, 0.7);
     
 
+    // OTHER COLOURS
 
-  // FONTS 
+      @red-dk:            #900;
+      @red-lt:            #c33;
 
-    @headfont: 'Open Sans Condensed', 'HelveticaNeue', 'Helvetica', Arial, sans-serif;
-    @bodyfont: 'Merriweather', 'Georgia', 'Times', serif;
-    @monofont: 'Inconsolata', Consolas, monaco, monospace;
-    @plusfont: ;
+      @grn-dk:            #033;
+      @grn-lt:            #366;
+
+      @prp-lt:            #939;
+      @prp-dk:            #606;
+
+      @org-lt:            #c60;
+      @org-dk:            #930;
+
+
+
+    
 
 // SITE 
 
@@ -57,23 +58,8 @@
   article {
     width: 940px;
     margin: auto;
+    margin-top: 106px;
   }
-
-  // body {
-  //   font-size: 16px;
-  //   width: 980px;
-  //   margin: auto;
-  //   text-align: left;
-  //   display: block;
-  // }
-
-// MASTHEAD 
-
-  // header {
-  //   width: 100%;
-  //   height: 100px;
-  //   background: url(../img/masthead.png) 50% no-repeat;
-  // }
 
 // SPLASH 
 
@@ -83,7 +69,7 @@
     overflow-y: hidden;
     float: left;
     clear: both;
-    margin-top: 106px;
+    
 
     *, *:before, *:after { box-sizing: border-box;}
 
@@ -168,7 +154,7 @@
     }
   }
 
-  .third {
+  .right {
 
     a {
       
@@ -195,8 +181,7 @@
       &:hover {
         
         img {
-          // width: 100%;
-          // left: -20%;
+          
         }
       }
 
@@ -204,54 +189,8 @@
     }
   }
 
-  .half {
-    
-      
-    .splash-teaser {
-      margin: 20px 20px 0 450px;
+  .news {
 
-      h1 {
-        font-size: 60px;
-        line-height: 1;
-      }
-    }
-
-    img {
-      width: 80%;
-      left: -15%;
-    }
-
-    &:hover {
-      
-      img {
-        // width: 90%;
-        // left: -20%;
-      }
-    }
   }
 
-  .twothirds {
 
-    .splash-teaser {
-      margin: 20px 20px 0 300px;
-
-      h1 {
-        font-size: 68px;
-        line-height: 1;
-      }
-    }
-
-    img {
-      width: 80%;
-      left: -20%;
-      
-    }
-
-    &:hover {
-      
-      img {
-        // width: 85%;
-        // left: -25%;
-      }
-    }
-  }
