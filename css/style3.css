@@ -1,16 +1,19 @@
-body {
-  font-size: 16px;
-}
-header {
+section {
+  background: url(../img/site.jpg) 50% 0 no-repeat;
   width: 100%;
-  height: 100px;
-  background: url(../img/masthead.png) 50% no-repeat;
+  height: 1183px;
+}
+article {
+  width: 940px;
+  margin: auto;
 }
 .splash-manual {
-  width: 940px;
-  height: 440px;
-  overflow: hidden;
-  margin: 20px auto;
+  width: 620px;
+  height: 400px;
+  overflow-y: hidden;
+  float: left;
+  clear: both;
+  margin-top: 106px;
 }
 .splash-manual *,
 .splash-manual *:before,
@@ -29,12 +32,12 @@ header {
 .splash-manual a .gradient {
   width: 100%;
   height: 440px;
-  background: url(../img/gradient.png) top right repeat-y;
+  background: url(../img/gradient620.png) top left repeat-y;
   z-index: 10;
   position: absolute;
 }
 .splash-manual a .splash-teaser {
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.7);
   float: right;
   padding: 0 10px;
   -webkit-transition: all 0.2s ease-in-out;
@@ -76,15 +79,19 @@ header {
   z-index: 1;
 }
 .third a .splash-teaser {
-  margin: 20px 20px 0 600px;
+  margin: 20px 20px 0 300px;
 }
 .third a .splash-teaser h1 {
-  font-size: 44px;
+  font-size: 60px;
   line-height: 1;
 }
+.third a .splash-teaser p {
+  font-size: 16px;
+}
 .third a img {
-  width: 90%;
-  left: -15%;
+  width: 100%;
+  left: -20%;
+  top: 0;
 }
 .half .splash-teaser {
   margin: 20px 20px 0 450px;
@@ -108,4 +115,4 @@ header {
   width: 80%;
   left: -20%;
 }
-/*# sourceMappingURL=style2.css.map */
+/*# sourceMappingURL=style3.css.map */

@@ -22,9 +22,9 @@
     @wht-md:            rgb(224, 224, 224);
     @wht-lt:            rgb(256, 256, 256);
     
-    @wht-dk-tr:         rgba(192, 192, 192, 0.9);
-    @wht-md-tr:         rgba(224, 224, 224, 0.9);
-    @wht-lt-tr:         rgba(256, 256, 256, 0.9);
+    @wht-dk-tr:         rgba(192, 192, 192, 0.7);
+    @wht-md-tr:         rgba(224, 224, 224, 0.7);
+    @wht-lt-tr:         rgba(256, 256, 256, 0.7);
 
     @red-dk:            rgb(160,0,0);
     @red-md:            rgb(224,0,0);
@@ -48,25 +48,42 @@
 
 // SITE 
 
-  body {
-    font-size: 16px;
+  section {
+    background: url(../img/site.jpg) 50% 0 no-repeat;
+    width: 100%;
+    height: 1183px;
   }
+
+  article {
+    width: 940px;
+    margin: auto;
+  }
+
+  // body {
+  //   font-size: 16px;
+  //   width: 980px;
+  //   margin: auto;
+  //   text-align: left;
+  //   display: block;
+  // }
 
 // MASTHEAD 
 
-  header {
-    width: 100%;
-    height: 100px;
-    background: url(../img/masthead.png) 50% no-repeat;
-  }
+  // header {
+  //   width: 100%;
+  //   height: 100px;
+  //   background: url(../img/masthead.png) 50% no-repeat;
+  // }
 
 // SPLASH 
 
   .splash-manual {
-    width: 940px;
-    height: 440px;
-    overflow: hidden;
-    margin: 20px auto;
+    width: 620px;
+    height: 400px;
+    overflow-y: hidden;
+    float: left;
+    clear: both;
+    margin-top: 106px;
 
     *, *:before, *:after { box-sizing: border-box;}
 
@@ -80,7 +97,7 @@
       .gradient {
         width: 100%;
         height: 440px;
-        background: url(../img/gradient.png) top right repeat-y;
+        background: url(../img/gradient620.png) top left repeat-y;
         z-index: 10;
         position: absolute;
       }
@@ -156,17 +173,22 @@
     a {
       
       .splash-teaser {
-        margin: 20px 20px 0 600px;
+        margin: 20px 20px 0 300px;
 
         h1 {
-          font-size: 44px;
+          font-size: 60px;
           line-height: 1;
+        }
+
+        p {
+          font-size: 16px;
         }
       }
 
       img {
-        width: 90%;
-        left: -15%;
+        width: 100%;
+        left: -20%;
+        top: 0;
         
       }
 
