@@ -7,13 +7,15 @@ article {
   width: 940px;
   margin: auto;
 }
+article .splash-manual {
+  margin-top: 106px;
+}
 .splash-manual {
   width: 620px;
   height: 400px;
   overflow-y: hidden;
   float: left;
   clear: both;
-  margin-top: 106px;
 }
 .splash-manual *,
 .splash-manual *:before,
@@ -46,13 +48,13 @@ article {
   position: absolute;
 }
 .splash-manual a .splash-teaser strong {
-  color: #e00000;
+  color: #cc3333;
   text-transform: uppercase;
   margin-right: 4px;
 }
 .splash-manual a .splash-teaser h1 {
   color: #404040;
-  border-left: thick solid #a00000;
+  border-left: thick solid #990000;
   padding: 10px 0 0 20px;
   margin-left: -15px;
   -webkit-transition: all 0.2s ease-in-out;
@@ -72,47 +74,71 @@ article {
 }
 .splash-manual a:hover .splash-teaser h1 {
   color: #000000;
-  border-left: thick solid #e00000;
+  border-left: thick solid #cc3333;
 }
 .splash-manual a img {
   position: absolute;
   z-index: 1;
 }
-.third a .splash-teaser {
+.right a .splash-teaser {
   margin: 20px 20px 0 300px;
 }
-.third a .splash-teaser h1 {
+.right a .splash-teaser h1 {
   font-size: 60px;
   line-height: 1;
 }
-.third a .splash-teaser p {
+.right a .splash-teaser p {
   font-size: 16px;
 }
-.third a img {
+.right a img {
   width: 100%;
   left: -20%;
   top: 0;
 }
-.half .splash-teaser {
-  margin: 20px 20px 0 450px;
+.bottom a .splash-teaser {
+  margin: 20px;
+  width: 580px;
+  position: absolute;
+  bottom: 40px;
 }
-.half .splash-teaser h1 {
-  font-size: 60px;
+.bottom a .splash-teaser h1 {
+  font-size: 52px;
   line-height: 1;
+  width: 100%;
 }
-.half img {
-  width: 80%;
-  left: -15%;
+.bottom a .splash-teaser p {
+  font-size: 16px;
 }
-.twothirds .splash-teaser {
-  margin: 20px 20px 0 300px;
+.bottom a img {
+  width: 100%;
+  left: 0;
+  top: 0;
 }
-.twothirds .splash-teaser h1 {
-  font-size: 68px;
-  line-height: 1;
+.bottom .gradient {
+  display: none;
 }
-.twothirds img {
-  width: 80%;
-  left: -20%;
+.news a .splash-teaser h1 {
+  border-left: thick solid #cc3333;
+}
+.news a:hover .splash-teaser h1 {
+  border-left: thick solid #990000;
+}
+.sport a .splash-teaser h1 {
+  border-left: thick solid #336666;
+}
+.sport a:hover .splash-teaser h1 {
+  border-left: thick solid #003333;
+}
+.showbiz a .splash-teaser h1 {
+  border-left: thick solid #993399;
+}
+.showbiz a:hover .splash-teaser h1 {
+  border-left: thick solid #660066;
+}
+.features a .splash-teaser h1 {
+  border-left: thick solid #cc6600;
+}
+.features a:hover .splash-teaser h1 {
+  border-left: thick solid #993300;
 }
 /*# sourceMappingURL=style3.css.map */

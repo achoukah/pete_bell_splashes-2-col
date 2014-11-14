@@ -58,7 +58,10 @@
   article {
     width: 940px;
     margin: auto;
-    margin-top: 106px;
+
+    .splash-manual {
+      margin-top: 106px;
+    }
   }
 
 // SPLASH 
@@ -97,7 +100,7 @@
         position: absolute;
 
         strong {
-          color: @red-md;
+          color: @red-lt;
           text-transform: uppercase;
           margin-right: 4px;
         }
@@ -133,7 +136,7 @@
 
           h1 {
             color: @blk-dk;
-            border-left: thick solid @red-md;
+            border-left: thick solid @red-lt;
           }
 
           
@@ -189,8 +192,139 @@
     }
   }
 
-  .news {
+  .bottom {
+    
 
+
+    a {
+      // display: table;
+
+      .splash-teaser {
+        margin: 20px;
+        width: 580px;
+        position: absolute;
+        bottom: 40px;
+
+        h1 {
+          font-size: 52px;
+          line-height: 1;
+          width: 100%;
+          // display: block;
+        }
+
+        p {
+          font-size: 16px;
+        }
+      }
+
+      img {
+        width: 100%;
+        left: 0;
+        top: 0;
+        
+      }
+
+      &:hover {
+        
+        img {
+          
+        }
+      }
+
+
+    }
+
+    .gradient {
+      display: none;
+    }
+  }
+
+  .news {
+    
+    a {
+
+      .splash-teaser {
+
+        h1 {
+          border-left: thick solid @red-lt;
+        }
+      }
+
+      &:hover {
+        .splash-teaser {
+
+        h1 {
+          border-left: thick solid @red-dk;
+        }
+      }
+      }
+    }
+  }
+
+  .sport {
+    
+    a {
+
+      .splash-teaser {
+
+        h1 {
+          border-left: thick solid @grn-lt;
+        }
+      }
+
+      &:hover {
+        .splash-teaser {
+
+        h1 {
+          border-left: thick solid @grn-dk;
+        }
+      }
+      }
+    }
+  }
+
+  .showbiz {
+    
+    a {
+
+      .splash-teaser {
+
+        h1 {
+          border-left: thick solid @prp-lt;
+        }
+      }
+
+      &:hover {
+        .splash-teaser {
+
+        h1 {
+          border-left: thick solid @prp-dk;
+        }
+      }
+      }
+    }
+  }
+
+  .features {
+    
+    a {
+
+      .splash-teaser {
+
+        h1 {
+          border-left: thick solid @org-lt;
+        }
+      }
+
+      &:hover {
+        .splash-teaser {
+
+        h1 {
+          border-left: thick solid @org-dk;
+        }
+      }
+      }
+    }
   }
 
 
