@@ -44,22 +44,22 @@
       @org-dk:            #930;
     
 
-// SITE 
+// // SITE 
 
-  section {
-    background: url(../img/site.jpg) 50% 0 no-repeat;
-    width: 100%;
-    height: 1183px;
-  }
+//   section {
+//     background: url(../img/site.jpg) 50% 0 no-repeat;
+//     width: 100%;
+//     height: 1183px;
+//   }
 
-  article {
-    width: 940px;
-    margin: auto;
+//   article {
+//     width: 940px;
+//     margin: auto;
 
-    .splash-manual {
-      margin-top: 116px;
-    }
-  }
+//     .splash-manual {
+//       margin-top: 116px;
+//     }
+//   }
 
 // SPLASH 
 
@@ -69,6 +69,7 @@
     float: left;
     clear: both;    
     background: @blk-dk;
+    margin-bottom: 20px;
 
     *, *:before, *:after { box-sizing: border-box;}
 
@@ -95,24 +96,24 @@
         margin: 0 20px;
         position: relative;
 
-        strong {
-          color: @red-lt;
-          text-transform: uppercase;
-          margin-right: 4px;
-        }
-
         h1 {
           color: @blk-lt;
           border-left: thick solid @red-dk;
-          padding: 10px 0 0 20px;
+          padding: 10px 0 20px 20px;
           margin-left: -15px;
           transition: all .2s ease-in-out;
+        }
+
+        strong {
+          text-transform: uppercase;
+          padding-right: .4rem;
         }
 
         p {
           color: @blk-lt;
           line-height: 1.4;
-          padding: 10px;
+          padding: 0 10px 10px 10px;
+          margin-top: -10px;
         }
 
         p + p {
@@ -167,7 +168,7 @@
         margin-bottom: 40px;
 
         h1 {
-          font-size: 60px;
+          font-size: 52px;
           line-height: 1;
         }
 
@@ -193,6 +194,7 @@
     }
 
     .gradient {
+      background: url(http://img.thesun.co.uk/aidemitlum/archive/02160/gradient-left_2160602a.png) 0 0 repeat-y;
       background: linear-gradient(to right, rgba(0,0,0,1) 20%, rgba(0,0,0,0) 40%);
 
       height: inherit;
@@ -216,7 +218,7 @@
         margin-bottom: 40px;
 
         h1 {
-          font-size: 60px;
+          font-size: 52px;
           line-height: 1;
         }
 
@@ -243,7 +245,8 @@
     }
 
     .gradient {
-      background: linear-gradient(to right,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 50%,rgba(0,0,0,1) 66%); /* W3C */
+      background: url(http://img.thesun.co.uk/aidemitlum/archive/02160/gradient-right_2160604a.png) 0 0 repeat-y;
+      // background: linear-gradient(to right, rgba(0,0,0,0) 35%, rgba(0,0,0,1) 65%);
       
       height: inherit;
       box-sizing: content-box;
@@ -253,17 +256,14 @@
   }
 
   .bottom {
-    
-
 
     a {
-
       .splash-teaser {
 
-        margin: 20px;
+        margin: 240px 20px 20px 20px;
         width: 580px;
         position: relative;
-        top: 20px;
+        top: 0;
 
         h1 {
           font-size: 52px;
@@ -279,7 +279,7 @@
       img {
         width: 100%;
         left: 0;
-        top: 0;
+        top: -240px;
         
       }
 
@@ -294,7 +294,9 @@
     }
 
     .gradient {
-      background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 50%,rgba(0,0,0,1) 80%); /* W3C */
+      background: url(http://img.thesun.co.uk/aidemitlum/archive/02160/gradient-bottom_2160603a.png) 0 100% repeat-x;
+      background: linear-gradient(to bottom, rgba(0,0,0,0) 35%, rgba(0,0,0,1) 65%);
+
       
     }
   }
@@ -309,6 +311,10 @@
 
         h1 {
           border-left: thick solid @red-lt;
+        }
+
+        strong {
+          color: @red-lt;
         }
       }
 
@@ -331,6 +337,10 @@
 
         h1 {
           border-left: thick solid @grn-lt;
+        }
+
+        strong {
+          color: @grn-lt;
         }
       }
 
@@ -362,6 +372,10 @@
         h1 {
           border-left: thick solid @prp-dk;
         }
+
+        strong {
+          color: @prp-lt;
+        }
       }
       }
     }
@@ -375,6 +389,10 @@
 
         h1 {
           border-left: thick solid @org-lt;
+        }
+
+        strong {
+          color: @org-lt;
         }
       }
 

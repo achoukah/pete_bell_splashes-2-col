@@ -1,0 +1,42 @@
+JustPubTopStories.display=true
+MetaDataTag.Description=Get the latest news and features at The Sun - Showbiz, babes, celebrities, sport and racing, national and international news. Check out the best pictures, videos, virals and podcasts.
+MetaDataTag.Keywords=The Sun, newspaper, Dear Deidre, Mystic Meg, page 3, page3, page 3 girls, UK, Britain, England, London, tabloid, breaking news, news, sport, showbiz, exclusives, gossip, competitions, celebrities, Bizarre, football, weather, big brother, celeb, celebrity, Barclaycard Premier League, Carling FA Cup, Dreamteam FC, F1 dream team, sun says, talkback, Ken Gibson, Premier, cartoons, crossword, Sun Fun, Jane Moore, John Sadler, Lorraine Kelly, superbabes, jukebox, investigations, 24 hour, reports, stars, horoscopes, mobile, wwe, wrestling, jon gaunt, Gizmo, keeley, sophie, ruth, gadgets, chart, gardening, film, trailers, diets, fitness, music, fashion, motors, videos, royals, royal family, contact us, back issues,  stories, news desk, sports, sport, team, bizarre, showbiz news, showbiz, gossip, daily news, real life stories"/><meta name="google-site-verification" content="SG6r2lUb5hGbDTAZlmkD_ktowMNuUhWKl0jDOsuXhAw" /><meta name="google-site-verification" content="P1b16cQNmwqtbn3a3VeT6AEiIs68uaXIwhY-KhVFM6U"/> <meta name="google-site-verification" content="B0ZYMWDxLa5XxtE_cbGUpwtB07xOSb3hRXsVU4rL_88
+MetaDataTag.Title=The Sun | The Best for News, Sport, Showbiz, Celebrities 
+MetaDataTag.page_id=noarchive
+Video.playListMax=100
+app-argument=thesun://
+article.free.wordcount=25
+article.paid.relatedlinks=true
+betting.url=http://sports.coral.co.uk/bet_coral?action=AddSelection&id=N&member=incomeaccess&profile=7SBLPSU030&creferer=BTAG:a_6469b_2923&ev_oc_id=
+dart.server=ad.uk.doubleclick.net/N3048
+enable.ios.banner=true
+epl.ooyala.videos.home.section.name=video-sport-football-premierleague
+excludedSections=smartphonecolumnists,feeds,smartphone,columnists
+footer.social.turnOn=true
+homepage.refreshInterval=86400
+inheritedArticleHeadCSS=http://img.thesun.co.uk/aidemitlum/archive/02051/override-140821_2051768a.css,http://img.thesun.co.uk/aidemitlum/archive/02015/badges-etc_2015663a.css
+inheritedSectionArticlesHeadCSS=http://img.thesun.co.uk/aidemitlum/archive/02051/override-140821_2051768a.css,http://img.thesun.co.uk/aidemitlum/archive/01907/newstyle-headers-r_1907458a.css?x,http://img.thesun.co.uk/aidemitlum/archive/02015/badges-etc_2015663a.css
+inheritedSectionHeadCSS=http://img.thesun.co.uk/aidemitlum/archive/02051/override-140821_2051768a.css,http://img.thesun.co.uk/aidemitlum/archive/01798/videoteaser_1798607a.css,http://img.thesun.co.uk/aidemitlum/archive/01907/newstyle-headers-r_1907458a.css?140424,http://img.thesun.co.uk/aidemitlum/archive/01978/bleed_carousel_fix_1978730a.css,http://img.thesun.co.uk/aidemitlum/archive/02015/badges-etc_2015663a.css,http://img.thesun.co.uk/aidemitlum/archive/02155/style-final-1153-m_2155996a.css
+ipad.banner.content=app-id=373954290,app-argument=thesun://
+iphone.banner.content=app-id=485672520,app-argument=thesun://
+justPublished.displayCount=8
+latestStoriesArticleDisplay.turnOn=false
+latestStoriesArticleList.turnOn=false
+marketing.leaderboard.iterate=3
+masthead.home.icon=false
+matchPage.competitionId=8
+mySunDiscussion.display=true
+newTagTime=60
+rig.discussion.link=/portal/site/mysun/menuitem.4b9858251c3b4595d08b2c1249e02da0
+rightColumn.social.turnOn=true
+section.adaptive.left.menu=BETA_left
+section.adaptive.right.menu=BETA_left
+section.adaptive.top.menu=BETA_top
+section.bg.gradient.color.from=ece7d8
+section.bg.gradient.color.to=ece7d8
+section.fixed.masthead=true
+section.new.masthead=true
+sitemap.section.priority=0.7
+topNav.all.label=MORE
+twitterNameOfTheSite=@thesunnewspaper
+weather.enabled=true

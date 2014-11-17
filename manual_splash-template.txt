@@ -1,3 +1,68 @@
+<!-- CHANGE POSITION (left, right, below) OF HEADLINE AND
+SECTION (news, sport, showbiz, features) BELOW -->
+
+<div class="splash-manual bottom features">
+
+
+<!-- LINK GOES BELOW -->
+
+
+<a href="http://www.thesun.co.uk/sol/homepage/showbiz/6090506/Decs-missus-shows-off-sparkler-on-Oz-walkabout.html">
+
+
+<!-- HEADLINE GOES ABOVE-->
+
+
+<div class="gradient"></div><div class="splash-teaser"><h1>
+
+
+
+<!-- HEADLINE GOES BELOW -->
+
+
+I'm a celeb- weddy
+
+
+<!-- HEADLINE GOES ABOVE -->
+
+</h1>
+
+
+<!-- TEASER TEXT GOES BELOW --><p>
+
+<strong>Video</strong>
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+
+<!-- TEASER TEXT GOES ABOVE --></p> </div>
+
+
+<!-- IMAGE GOES BELOW -->
+
+<img src="http://img.thesun.co.uk/aidemitlum/archive/02160/wayne-rooney_2160328a.jpg" />
+
+<!-- IMAGE GOES ABOVE -->
+
+
+</a></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
 .splash-manual {
   width: 620px;
   overflow: hidden;
@@ -197,3 +262,5 @@
 .features a:hover .splash-teaser h1 {
   border-left: thick solid #993300;
 }
+
+</style>
