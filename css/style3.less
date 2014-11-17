@@ -42,9 +42,6 @@
 
       @org-lt:            #c60;
       @org-dk:            #930;
-
-
-
     
 
 // SITE 
@@ -68,42 +65,34 @@
 
   .splash-manual {
     width: 620px;
-    height: 400px;
-    overflow-y: hidden;
+    // height: 400px;
+    overflow: hidden;
     float: left;
-    clear: both;
-    
+    clear: both;    
 
     *, *:before, *:after { box-sizing: border-box;}
 
     a {
       display: block;
       width: 100%;
-      height: 440px;
       background-color: @blk-dk-tr;
       position: relative;
-
-      // .gradient {
-      //   width: 100%;
-      //   height: 440px;
-      //   background: url(../img/gradient620.png) top left repeat-y;
-      //   z-index: 10;
-      //   position: absolute;
-      // }
+      text-decoration: none;
 
       .gradient {
         position: absolute;
         z-index: 10;
-        height: 440px;
+        height: 100%;
         width: 100%;
+        padding: 100px;
       }
 
       .splash-teaser {
         background-color: @wht-lt-tr;
-        // float: right;
         padding: 0 10px;
         transition: all .2s ease-in-out;
         z-index: 100;
+        margin: 20px;
         position: relative;
 
         strong {
@@ -139,8 +128,6 @@
         width: 80%;
       }
 
-
-
       &:hover {
 
         .splash-teaser {
@@ -162,19 +149,22 @@
 
       img {
         position: absolute;
-        
         z-index: 1;
       } 
     }
   }
 
-  .left {
+// POSITION 
 
+  .left {
+    
     a {
-      
+      position: relative;
+
       .splash-teaser {
-        margin: 20px 20px 0 20px;
         width: 280px;
+        top: 20px;
+        margin-bottom: 40px;
 
         h1 {
           font-size: 60px;
@@ -189,8 +179,7 @@
       img {
         width: 100%;
         right: -20%;
-        top: 0;
-        
+        top: 0;        
       }
 
       &:hover {
@@ -204,13 +193,8 @@
     }
 
     .gradient {
-      background: -moz-linear-gradient(left,  rgba(0,0,0,1) 34%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 100%); /* FF3.6+ */
-      background: -webkit-gradient(linear, left top, right top, color-stop(34%,rgba(0,0,0,1)), color-stop(50%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
-      background: -webkit-linear-gradient(left,  rgba(0,0,0,1) 34%,rgba(0,0,0,0) 50%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
-      background: -o-linear-gradient(left,  rgba(0,0,0,1) 34%,rgba(0,0,0,0) 50%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
-      background: -ms-linear-gradient(left,  rgba(0,0,0,1) 34%,rgba(0,0,0,0) 50%,rgba(0,0,0,0) 100%); /* IE10+ */
-      background: linear-gradient(to right,  rgba(0,0,0,1) 34%,rgba(0,0,0,0) 50%,rgba(0,0,0,0) 100%); /* W3C */
-      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 */
+      background: linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 70%, rgba(0,0,0,0) 100%);
+      height: inherit;
 
 
 
@@ -252,11 +236,6 @@
     }
 
     .gradient {
-      background: -moz-linear-gradient(left,  rgba(0,0,0,0) 0%, rgba(0,0,0,0) 50%, rgba(0,0,0,1) 66%); /* FF3.6+ */
-      background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,0)), color-stop(50%,rgba(0,0,0,0)), color-stop(66%,rgba(0,0,0,1))); /* Chrome,Safari4+ */
-      background: -webkit-linear-gradient(left,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 50%,rgba(0,0,0,1) 66%); /* Chrome10+,Safari5.1+ */
-      background: -o-linear-gradient(left,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 50%,rgba(0,0,0,1) 66%); /* Opera 11.10+ */
-      background: -ms-linear-gradient(left,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 50%,rgba(0,0,0,1) 66%); /* IE10+ */
       background: linear-gradient(to right,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 50%,rgba(0,0,0,1) 66%); /* W3C */
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=1 ); /* IE6-9 */
 
@@ -268,19 +247,18 @@
 
 
     a {
-      // display: table;
 
       .splash-teaser {
+
         margin: 20px;
         width: 580px;
-        position: absolute;
-        bottom: 40px;
+        position: relative;
+        top: 20px;
 
         h1 {
           font-size: 52px;
           line-height: 1;
           width: 100%;
-          // display: block;
         }
 
         p {
@@ -306,15 +284,13 @@
     }
 
     .gradient {
-      background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0) 50%, rgba(0,0,0,1) 80%); /* FF3.6+ */
-      background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(50%,rgba(0,0,0,0)), color-stop(80%,rgba(0,0,0,1))); /* Chrome,Safari4+ */
-      background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 50%,rgba(0,0,0,1) 80%); /* Chrome10+,Safari5.1+ */
-      background: -o-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 50%,rgba(0,0,0,1) 80%); /* Opera 11.10+ */
-      background: -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 50%,rgba(0,0,0,1) 80%); /* IE10+ */
       background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 50%,rgba(0,0,0,1) 80%); /* W3C */
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+      margin: 20px;
     }
   }
+
+// SECTIONs 
 
   .news {
     
